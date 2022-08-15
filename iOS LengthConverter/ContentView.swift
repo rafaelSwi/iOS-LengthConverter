@@ -1,5 +1,6 @@
 // Published by RafaelSwi on Github (August 13, 2022)
 // Release 1.0 (August 13, 2022)
+// Release 1.1 (August 15, 2022)
 
 import SwiftUI
 
