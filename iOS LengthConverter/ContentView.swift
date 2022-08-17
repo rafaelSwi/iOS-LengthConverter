@@ -1,6 +1,6 @@
 // Published by RafaelSwi on Github (August 13, 2022)
 // Release 1.0 (August 13, 2022)
-// Release 1.1 (August 15, 2022)
+// Release 2.0 (August 17, 2022)
 
 import SwiftUI
 
@@ -20,7 +20,7 @@ struct ContentView: View {
     @State private var selectedSender: options = .nothing
     @State private var selectedDestination: options = .nothing
     
-    @State private var amountSender: Float = 0.0
+    @State private var amountSender: Float?
     @State private var amountDestination: Float = 0.0
     
     @State private var DestionationDisplay = ""
@@ -51,8 +51,8 @@ struct ContentView: View {
         
         DestionationDisplay = ""
         DestionationDisplay += "\(amountDestination)"
-        if (from == .nothing && to != .nothing)
-        {DestionationDisplay = "choose a length unit first"}
+        if (from == .nothing || to == .nothing)
+        {DestionationDisplay = "Choose a Unit First"}
         
     }
     
@@ -131,15 +131,14 @@ struct ContentView: View {
                     
                     HStack {
                         
-                        Image ("arrow_down")
-                            .resizable()
-                            .frame(width: 15, height: 60)
-                            .clipped()
-                            .offset(x: 8, y: 0)
                         
-                        Button("CONVERT") {
-                            Convert(value: amountSender, from: selectedSender, to: selectedDestination)
+                        
+                        Button("CONVERT ⇩") {
+                            Convert(value: amountSender ?? 0.0, from: selectedSender, to: selectedDestination)
                         } .font(.title2.bold())
+                            .padding()
+                            .background(.yellow.opacity(0.6))
+                            .cornerRadius(20)
                             .foregroundColor(.black)
                         
                         
