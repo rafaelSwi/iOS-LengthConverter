@@ -15,5 +15,4 @@ O Aplicativo tem seu tamanho otimizado para todos os iPhones 8 em diante, com ex
 
 Publicado sua primeira versão em 13 de agosto de 2022.
 
-![centered](https://user-images.githubusercontent.com/110249038/185493491-5e09688b-88f8-40a6-89be-aec40174246b.jpg)
 ![side](https://user-images.githubusercontent.com/110249038/185493517-e79bd6a2-ddb5-4a70-9a7f-057487b41144.jpg)
