@@ -14,3 +14,6 @@ Inclui as medidas metros, quilômetros, pés, jardas e milhas.
 O Aplicativo tem seu tamanho otimizado para todos os iPhones 8 em diante, com exceção do iPod Touch, foi o único dispositivo que apresentou cortar o conteúdo do aplicativo de sua tela. Entretanto, todos os outros iPhones funcionam normalmente. O iPhone que utilizei para testar foi meu celular pessoal, o iPhone 12 mini.
 
 Publicado sua primeira versão em 13 de agosto de 2022.
+
+![centered](https://user-images.githubusercontent.com/110249038/185493491-5e09688b-88f8-40a6-89be-aec40174246b.jpg)
+![side](https://user-images.githubusercontent.com/110249038/185493517-e79bd6a2-ddb5-4a70-9a7f-057487b41144.jpg)
